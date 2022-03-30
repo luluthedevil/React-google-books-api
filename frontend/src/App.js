@@ -13,7 +13,7 @@ function App() {
   const [textAreaComment, setTextAreaComment] = useState("");
   const [username, setUsername] = useState("");
 
-  const apiKey = "AIzaSyCpUPsTb1dceiCOHxN2URx2vK-sBPywhXw";
+  const apiKey = "api-key";
 
   function handleChange(event){
     const bookSearch = event.target.value;
