@@ -13,7 +13,7 @@ function App() {
   const [textAreaComment, setTextAreaComment] = useState("");
   const [username, setUsername] = useState("");
 
-  const apiKey = "api-key";
+  const apiKey = "";
 
   function handleChange(event){
     const bookSearch = event.target.value;
@@ -33,7 +33,7 @@ function App() {
   }
 
   function setActiveBook(item){
-    setSelectedBook(item);
+    setSelectedBook({...item, changed: true});
   }
 
   useEffect(() => {
@@ -59,7 +59,7 @@ function App() {
       personName: username,
       personComment: textAreaComment,
       bookName: selectedBook.volumeInfo.title
-    }).then(() => setActiveBook(oldState => oldState))    
+    }).then(() => setActiveBook(selectedBook))    
   }
 
   return (
