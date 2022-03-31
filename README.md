@@ -1,21 +1,17 @@
-# Getting Started with Create React App
+# Grupo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Luciana Ferreira Miranda</p>
+<p>Paulo Sérgio Rodrigues Leite Junior</p>
 
-## Available Scripts
 
-In the frontend folder, you can run:
+# Como rodar o projeto?
 
-### `npm start`
+<p>Instalar as dependências usando <code>npm i</code> nas pastas do backend e frontend</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Executar o backend
+<p>Entrar na pasta backend e executar <code>npm run dev</code></p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Executar o frontend
 
-Activate the google books api then get your api key and replace it in the App.js file.
-
-In the backend folder, you can run:
-
-### `npm run dev`
+<p>Entrar no arquivo <code>App.js</code> e definir a chave da API do Google Books na variável <code>apiKey</code></p>
+<p>Rodar o comando <code>npm start</code></p>
