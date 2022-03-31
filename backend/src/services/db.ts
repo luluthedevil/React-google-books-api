@@ -1,8 +1,6 @@
 import sqlite3 from "sqlite3";
-import dotenv from 'dotenv';
-dotenv.config();
 
-const DATABASE_FILE = process.env.DATABASE_FILE;
+const DATABASE_FILE = "data.db";
 
 if (!DATABASE_FILE) {
     throw new Error("DATABASE_FILE not informed");
